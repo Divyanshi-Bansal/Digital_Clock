@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    font-style: italic;
+    font-family: cursive;
 }
 .container1{
     display: flex;
@@ -13,7 +14,7 @@
 }
 .hours , .min , .sec , .not{
     padding: 1em;
-    margin: 2em;
+    margin: 1em;
     width: 4em;
     height: 4em;
     display: flex;
