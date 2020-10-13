@@ -8,6 +8,15 @@ let digitalClock = () => {
     let year = date.getUTCFullYear();
     let day = date.getUTCDay();
 
+    var weekday = new Array(7);
+    weekday[0] = 'Sunday';
+    weekday[1] = 'Monday';
+    weekday[2] = 'Tuesday';
+    weekday[3] = 'Wednesday';
+    weekday[4] = 'Thursday';
+    weekday[5] = 'Friday';
+    weekday[6] = 'Saturday';
+
     let not  = hours >=12 ? 'pm' : 'am';
 
     document.getElementById("hours").innerHTML = hours;
@@ -17,7 +26,7 @@ let digitalClock = () => {
     document.getElementById("date").innerHTML = date1;
     document.getElementById("month").innerHTML = month + 1;
     document.getElementById("year").innerHTML = year;
-    document.getElementById("day").innerHTML = day;
+    document.getElementById("day").innerHTML = weekday[day];
 
     setTimeout(digitalClock , 500);
 
