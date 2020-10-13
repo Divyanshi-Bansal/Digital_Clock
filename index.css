@@ -5,12 +5,13 @@
 body{
     font-style: italic;
     font-family: cursive;
+    background-color: lightgrey;
 }
 .container1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: lightgrey;
+    
 }
 .hours , .min , .sec{
     padding: 1em;
