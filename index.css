@@ -38,3 +38,13 @@ body{
     align-items: center;
     border-radius: 9px;
 }
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box1{
+    padding: 1em;
+    margin: 10px;
+}
