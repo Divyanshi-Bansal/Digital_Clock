@@ -7,11 +7,16 @@ body{
     font-family: cursive;
     background-color: lightgrey;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .container1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
 }
 .hours , .min , .sec{
     padding: 1em;
@@ -45,6 +50,10 @@ body{
     justify-content: center;
 }
 .box1{
-    padding: 1em;
-    margin: 10px;
+    padding: 8px;
+    
+}
+
+.day h1{
+    color: rgb(133, 133, 248);
 }
