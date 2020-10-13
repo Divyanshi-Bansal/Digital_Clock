@@ -11,7 +11,7 @@ let digitalClock = () => {
     document.getElementById("min").innerHTML = min;
     document.getElementById("sec").innerHTML = sec;
     document.getElementById("date").innerHTML = date1;
-    document.getElementById("month").innerHTML = month;
+    document.getElementById("month").innerHTML = month + 1;
     document.getElementById("year").innerHTML = year;
 
 }
