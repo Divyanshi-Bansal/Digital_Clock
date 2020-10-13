@@ -8,3 +8,5 @@ let digitalClock = () => {
     document.getElementById("min").innerHTML = min;
     document.getElementById("sec").innerHTML = sec;
 }
+
+digitalClock();
