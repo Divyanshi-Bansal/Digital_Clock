@@ -1,6 +1,6 @@
 let digitalClock = () => {
     let date = new Date();
-    let hours = date.getHours();
+    let hour = date.getHours();
     let min = date.getMinutes();
     let sec = date.getSeconds();
     let date1 = date.getUTCDate();
@@ -17,7 +17,9 @@ let digitalClock = () => {
     weekday[5] = 'Friday';
     weekday[6] = 'Saturday';
 
-    let not  = hours >=12 ? 'pm' : 'am';
+    let not  = hour >=12 ? 'pm' : 'am';
+
+    let hours = hour >12 ? hour-12 : hour ;
 
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("min").innerHTML = min;
