@@ -14,6 +14,8 @@ let digitalClock = () => {
     document.getElementById("month").innerHTML = month + 1;
     document.getElementById("year").innerHTML = year;
 
+    setTimeout(digitalClock , 500);
+
 }
 
 digitalClock();
