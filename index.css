@@ -5,7 +5,7 @@
 body{
     font-style: italic;
     font-family: cursive;
-    background-color: lightgrey;
+    background-color: rgb(243, 227, 227);
 }
 .container{
     display: flex;
@@ -26,14 +26,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
-    border-radius: 50%;
+    background-color: rgb(235, 204, 204);
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey ,-4px -4px 13px rgb(252, 245, 245);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .box h2{
     text-align: center;
+    font-size: 18px;
 }
 .not{
-    background-color:blue;
+    background-color:rgb(193, 193, 243);
     padding: 1em;
     margin: 1em;
     width: 4em;
@@ -42,6 +45,8 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 9px;
+    box-shadow: 4px 4px 5px rgb(111, 111, 156) , -4px -4px 13px rgb(252, 245, 245)  ;
+    color: slategray;
 }
 
 .container2{
@@ -56,4 +61,7 @@ body{
 
 .day h1{
     color: rgb(133, 133, 248);
+}
+.container p{
+    margin-top: 30px;
 }
