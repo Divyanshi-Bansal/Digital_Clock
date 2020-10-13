@@ -9,6 +9,7 @@
     height: 100vh;
 }
 .box{
+    background-color: blue;
     padding: 5px;
     margin: 10px;
     display: flex;
