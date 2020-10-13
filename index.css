@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container1{
     display: flex;
     flex-wrap: wrap;
@@ -18,4 +21,7 @@
     align-items: center;
     background-color: red;
     border-radius: 50%;
+}
+.box h2{
+    text-align: center;
 }
