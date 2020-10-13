@@ -8,11 +8,11 @@
     justify-content: center;
     height: 100vh;
 }
-.box{
-    background-color: blue;
-    padding: 5px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hours , .min , .sec , .not{
+    padding: 1em;
+    margin: 2em;
+    width: 4em;
+    height: 4em;
+    
+    background-color: red;
 }
